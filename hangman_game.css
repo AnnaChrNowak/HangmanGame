@@ -1,0 +1,99 @@
+body{
+  background-color: black;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 48px;
+  color: rgb(191, 191, 191);
+}
+
+#container{
+  text-align: center;
+}
+
+#password{
+  margin-top: 30px;
+  height: 100px;
+}
+
+#hangman, #board{
+  margin-top: 30px;
+  display: inline-block;
+  float: left;
+}
+
+#hangman{
+  min-height: 320px;
+  margin-left: 80px;
+}
+
+#board{
+  margin-left: 130px;
+  width: 600px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.letter{
+  display: inline-block;
+  float: left;
+  font-size: 38px;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid rgb(191, 191, 191);
+  border-radius: 15px;
+}
+
+.letter:hover{
+  cursor: pointer;
+  border: 3px solid white;
+  color: white;
+}
+
+.unactive{
+  cursor: default;
+  border: 3px solid green;
+  color: green;
+  display: inline-block;
+  float: left;
+  font-size: 38px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.unactive_wrong{
+  cursor: default;
+  border: 3px solid red;
+  color: red;
+  display: inline-block;
+  float: left;
+  font-size: 38px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.reset{
+}
+
+.end_game{
+  font-size: 35px;
+  margin-left: 0px;
+  width: 300px;
+  color: yellow;
+}
+
+.reset_button{
+  border-radius: 10px;
+  border: 3px solid rgb(153, 255, 153);
+  background-color: black;
+  color: rgb(153, 255, 153)!important;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 6px 8px 6px 8px;  
+}
+
+.reset_button:hover{
+  cursor: pointer;
+  color: rgb(51, 255, 51)!important;
+  border: 3px solid rgb(51, 255, 51);
+}
